@@ -8,10 +8,13 @@
 
 /* https://cdn.pixabay.com/photo/2018/05/26/01/48/thunderstorm-3430471_960_720.jpg */
 .main{
-	height: 100vh;
+	height: 70vh;
 	width: 100%;
-    background-image: url("https://cdn.pixabay.com/photo/2022/09/17/20/31/ocean-7461792_1280.jpg");
-    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/01/48/thunderstorm-3430471_960_720.jpg");
+    /* background-image: url("https://cdn.pixabay.com/photo/2022/09/17/20/31/ocean-7461792_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/26/01/48/thunderstorm-3430471_960_720.jpg"); */
+    /* background-image: url("https://a.cdn-hotels.com/gdcs/production30/d134/efd322da-3735-4c62-a25a-1caef40c9aeb.jpg"); */
+    /* background-image: url("https://www.propertyturkey.com/files/galata-tower_1583349451.jpg"); */
+    background-image: url("https://theistanbulinsider.com/wp-content/uploads/2019/12/galata-tower-istanbul-night.jpg");
 	background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +82,7 @@
 
 .content{
     padding: 0 10%;
-    padding-top: 12%;
+    padding-top: 9%;
     color: white;
 }
 
@@ -152,6 +155,10 @@
     align-items: center;
 } */
 
+.service{
+    height: 30vh;
+}
+
 .box{
     padding: 0 10%;
     display: grid;
@@ -183,7 +190,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   
 .it1 {
@@ -220,7 +227,7 @@
     padding: 0 10%;
     color:#242424;
     /* background-color: red; */
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .desp1{
@@ -228,8 +235,8 @@
 }
 
 .desp2{
-    font-size: 10px;
-    margin-top: 0;
+    font-size: 20px;
+    margin-top: 20px 0;
 }
 
 .despro h2{
@@ -237,15 +244,23 @@
 }
 
 .imgpro{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.divima{
+    margin: 0 20px;
 }
 
 .imgp{
     width: 33%;
     max-width: 100%;
-    padding: 10px;
-
+    border-radius: 10px;
+    align-items: center;
+    border-radius: 20px; 
+    width: 100%;
 }
 
 .imgpro img{
@@ -271,6 +286,7 @@
     margin-bottom: 100px;
     height: 30vh;
     background-color: red;
+    background-image: url("https://assets.architecturaldigest.in/photos/61a0a9f3caf4a497bea0cbbe/16:9/w_1615,h_908,c_limit/Vastu%20tips%20for%20the%20bedroom.jpg");
     /* align-items: center;
     justify-content: center; */
 }
@@ -291,15 +307,18 @@
     padding: 0 10%; */
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center;
+    justify-content: space-between; */
     padding: 0 10%;
+    position: absolute;
+    margin-top: 100px;
 }
 
 .qoute{
     box-sizing: border-box;
     width: 45%;
-    background-color: aliceblue;
+    margin-top: 60px;
+    /* background-color: aliceblue; */
 
 }
 
@@ -328,7 +347,6 @@
 .input{
     display: flex;
     justify-content: flex-end;
-    background-color: aliceblue;
     flex-direction: row;
 }
 
@@ -340,9 +358,12 @@
     color: white;
     text-align: center;
     margin: 20px;
+    width: 70%;
+    /* margin: 20px;
     height: 10px;
     width: 200px;
-    padding-bottom: 20px;
+    padding-bottom: 40px; */
+
 }
 
 .review{
