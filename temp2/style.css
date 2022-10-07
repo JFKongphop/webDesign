@@ -28,9 +28,6 @@
     justify-content: space-between;
     padding: 0 10%;
     padding-top: 1.5%;
-    /* background-color: rgba(0, 0, 0, 0.05);
-    position: fixed;
-    height: 80px;*/
 } 
 
 .logo{
@@ -82,7 +79,7 @@
 
 .content{
     padding: 0 10%;
-    padding-top: 9%;
+    padding-top: 5%;
     color: white;
 }
 
@@ -147,13 +144,6 @@
     cursor: pointer;
 }
 
-/* .service{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
 
 .service{
     height: 30vh;
@@ -165,21 +155,32 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-items: stretch;
     align-items: stretch;
-    /* column-gap: 150px; */
-    /* row-gap: 150px;  */
     flex-direction: row;
-    margin: 50px 0;
+    margin: 10px 0;
 }
 
 .far{
-    height: 100px;
-    width: 30px;
+    margin-bottom: 10px;
 }
 
+.fa-user, .fa-bell{
+    color: black;
+    font-size: 50px;
+}
+
+
 .card{
-    color: red;
     text-align: center;
     padding: 30px;
+}
+
+h5{
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+}
+
+.pra, h5{
+    color: rgb(116, 116, 116);
 }
 
 .flexbox {
@@ -191,12 +192,12 @@
     width: 100%;
     margin: 0;
     margin-bottom: 50px;
+    margin-top: 50px;
   }
   
 .it1 {
     box-sizing: border-box;
     width: 35%;
-    /* padding-right: 10px; */
 }
 
 .it2 {
@@ -211,7 +212,7 @@
 
 .con {
     color: #242424;
-    background-color: #1bbefe;
+    background-color: #c6c6c6ac;
     font-weight: 600;
     text-align: center;
     box-sizing: border-box;
@@ -222,11 +223,13 @@
     height: 100%;
 }
 
-.project{
+.near-image{
+    font-size: 50px;
+}
 
+.project{
     padding: 0 10%;
     color:#242424;
-    /* background-color: red; */
     margin-bottom: 50px;
 }
 
@@ -284,7 +287,7 @@
     width: 100%;
     margin: 0;
     margin-bottom: 100px;
-    height: 30vh;
+    height: 50vh;
     background-color: red;
     background-image: url("https://assets.architecturaldigest.in/photos/61a0a9f3caf4a497bea0cbbe/16:9/w_1615,h_908,c_limit/Vastu%20tips%20for%20the%20bedroom.jpg");
     /* align-items: center;
@@ -292,31 +295,17 @@
 }
 
 .freeQ{
-    /* display: flex;
-    align-items: center;
-    flex-direction: row;
-    border: solid white;
-    padding: 10px 10%; */
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    box-sizing: border-box;
-    margin: 0px -10px;
-    padding: 0 10%; */
     width: 100%;
     display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
     padding: 0 10%;
     position: absolute;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
 .qoute{
     box-sizing: border-box;
-    width: 45%;
+    width: 50%;
     margin-top: 60px;
     /* background-color: aliceblue; */
 
@@ -331,18 +320,6 @@
     
 }
 
-.ccc{
-    /* color: #242424;
-    background-color: #1bbefe;
-    font-weight: 600;
-    text-align: center;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end; */
-}
 
 .input{
     display: flex;
@@ -359,11 +336,6 @@
     text-align: center;
     margin: 20px;
     width: 70%;
-    /* margin: 20px;
-    height: 10px;
-    width: 200px;
-    padding-bottom: 40px; */
-
 }
 
 .review{
@@ -383,17 +355,26 @@
 }
 
 .reall{
-    /* padding: 0 10%;
-    padding-top: 12%;
-    color: white; */
     background-color: bisque;
-    /* width: 100%; */
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 0 10%;
     flex-direction: column;
-    
+}
+
+.p1{
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.p2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.p3{
+    text-align: center;
 }
 
 .custoRe, .peopleRe{
@@ -409,7 +390,6 @@
     background-color: #242424;
     color: white;
     text-align: center;
-
 }
 
 .contact div{
